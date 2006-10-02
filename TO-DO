@@ -11,6 +11,8 @@
 
 ===== RGLite =====
 
+- Create named examples - Number of ROOT Macros, which shows specific aspects of the usage of RGLite (like: JobSubmit.C, GetStatus.C, ListCatalog.C and so on)
+
 - Give ability to a user to list all previously submitted jobs
 
 - Extend TGLiteJobStatus::GetStatus, so it can give a status not only of last submitted job by of any job by a given ID.

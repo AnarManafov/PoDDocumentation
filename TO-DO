@@ -4,7 +4,7 @@
 
 ===== glite-api-wrapper =====
 
-- Extend JobManager: Implement JobManajer as a template, which accepts treats of JMs in order to use several different implementation of JMs (WMSUI, WMProxy and so on). Currently only WMSUI can be used.
+- Extend JobManager: Implement JobManajer as a template, which accepts traits of JMs in order to use several different implementation of JMs (WMSUI, WMProxy and so on). Currently only WMSUI can be used.
 
 - Persist Submitted Jobs to GAW config XML
 

@@ -1,0 +1,19 @@
+===== General =====
+
+- Investigate interactive Job submition in gLite
+
+===== glite-api-wrapper =====
+
+- Extend JobManager: Implement JobManajer as a template, which accepts treats of JMs in order to use several different implementation of JMs (WMSUI, WMProxy and so on). Currently only WMSUI can be used.
+
+- Persist Submitted Jobs to GAW config XML
+
+
+===== RGLite =====
+
+- Give ability to a user to list all previously submitted jobs
+
+- Extend TGLiteJobStatus::GetStatus, so it can give a status not only of last submitted job by of any job by a given ID.
+
+- Implement stress test macro, which could be used to massively check RGLite plugi-in.
+

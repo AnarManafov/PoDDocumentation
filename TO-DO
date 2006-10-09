@@ -6,11 +6,15 @@
 
 - Put documentation for RGLite and some info about GAW to Grid wiki.
 
+
 ===== glite-api-wrapper =====
 
 - Extend JobManager: Implement JobManajer as a template, which accepts traits of JMs in order to use several different implementation of JMs (WMSUI, WMProxy and so on). Currently only WMSUI can be used.
 
 - Persist Submitted Jobs to GAW config XML
+
+- Design and Write BOOST tests for the project
+
 
 ===== RGLite =====
 

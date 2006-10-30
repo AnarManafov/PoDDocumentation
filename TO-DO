@@ -1,17 +1,7 @@
 date: 30.10.2006
-ver : 1.0
+ver : 1.1
 
 ===== General =====
-
-- Investigate interactive Job submission in gLite.
-
--DONE- Put some general information about D-Grid to http://wiki.gsi.de/cgi-bin/view/Grid.
-COMMENT: http://wiki.gsi.de/cgi-bin/view/Grid/WebHome#D_Grid_Initiative
-
--DONE- Put documentation for RGLite and some info about GAW to Grid wiki.
-COMMENT: http://wiki.gsi.de/cgi-bin/view/Grid/RGLiteAndGAW
-
-- Investigate Local PROOF cluster
 
 * - Install the latest UI on depc218 and use also grid7 UI for testing (grid7 will be used for RGLite demo)
 
@@ -28,7 +18,17 @@ COMMENT: http://wiki.gsi.de/cgi-bin/view/Grid/RGLiteAndGAW
     - Macro submits PROOF demons to the gLite
     - Macro processed simple analysis using PROOF
 
-- Design and implement a presentation (MS Power Point) of the project's current status
+* - Design and implement a presentation (MS Power Point) of the project's current status
+
+- Investigate interactive Job submission in gLite.
+
+- Investigate Local PROOF cluster
+
+-DONE- Put some general information about D-Grid to http://wiki.gsi.de/cgi-bin/view/Grid.
+COMMENT: http://wiki.gsi.de/cgi-bin/view/Grid/WebHome#D_Grid_Initiative
+
+-DONE- Put documentation for RGLite and some info about GAW to Grid wiki.
+COMMENT: http://wiki.gsi.de/cgi-bin/view/Grid/RGLiteAndGAW
 
 ===== glite-api-wrapper =====
 

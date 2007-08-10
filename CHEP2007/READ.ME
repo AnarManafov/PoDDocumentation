@@ -1,6 +1,49 @@
 Contribution details:
 http://indico.cern.ch/contributionDisplay.py?contribId=311&amp;sessionId=21&amp;confId=3580
 
+RGLite, an interface between ROOT and gLite
+ 	
+
+After all LHC experiments managed to run globally distributed Monte Carlo 
+productions on the Grid, now the development of tools for equally spread 
+data analysis stands in the foreground. To grant Physicists access to this world 
+suited interfaces must be provided. As a starting point serves the analysis 
+framework ROOT/PROOF, which enjoys a wide distribution within the HEP 
+community. Using abstract ROOT classes (TGrid, ...) interfaces can be 
+implemented via which Grid access directly from ROOT can be accomplished. A 
+concrete implementation exists already for the ALICE Grid environment AliEn via 
+which also the distribution of PROOF daemons in the Grid can be taken care of.
+Within the D-Grid project now also an interface to the common Grid middleware 
+of all LHC experiments, gLite, has been created. Herewidth it is possible to 
+query Grid File Catalogues directly from inside ROOT for the location of the data 
+to be analysed, Grid jobs can be submitted into a gLite based Grid, the status 
+of the jobs can be asked for, and the results can be obtained. It is  shown that 
+it is possible by using RGLite as well to send PROOF daemons as Grid jobs, to 
+start a PROOF session by connecting to the submitted PROOF daemons, and to 
+perform a data analysis using PROOF and gLite.
+The possibility to create a PROOF analysis cluster shared by several computing 
+centres using existing middleware versions of gLite and/or Globus is being 
+investigated.
+
+ 	
+summary: 	a ROOT-gLite interface, RGLite, has been implemented via which it is possible to do most interactions with a gLite based Grid directly from within ROOT scripts.
+experiment: 	D-Grid HEPCG
+Id: 	311
+Place: 	Victoria, Canada
+board#: 23
+Starting date: 	
+05-Sep-2007 	  08:00
+Duration: 	20'
+Contribution type: 	poster
+Primary Authors: 	Dr. SCHWARZ, Kilian (GSI)
+Dr. MANAFOV, Anar (GSI)
+Dr. MALZACHER, Peter (GSI)
+Presenters: 	Dr. SCHWARZ, Kilian
+ 
+Included in session: 	Poster 2
+Included in track: 	Distributed data analysis and information management
+
+
 CHEP2007:
 http://www.chep2007.com/
 

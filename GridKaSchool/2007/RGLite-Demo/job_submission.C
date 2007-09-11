@@ -2,10 +2,10 @@
 /*! \file job_submission.C
 	RGlite test macro - Job submission *//*
 
-         version number:    $LastChangedRevision: 1160 $
+         version number:    $LastChangedRevision$
          created by:        Anar Manafov
                             2006-11-13
-         last changed by:   $LastChangedBy: manafov $ $LastChangedDate: 2007-08-08 16:31:05 +0200 (Wed, 08 Aug 2007) $
+         last changed by:   $LastChangedBy$ $LastChangedDate$
 
          Copyright (c) 2006 GSI GridTeam. All rights reserved.
 *************************************************************************/

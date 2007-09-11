@@ -2,10 +2,10 @@
 /*! \file file_catalog.C
 	RGlite test macro - File Catolog operations */ /*
 
-         version number:    $LastChangedRevision: 399 $
+         version number:    $LastChangedRevision$
          created by:        Anar Manafov
                             2006-11-15
-         last changed by:   $LastChangedBy: manafov $ $LastChangedDate: 2007-02-13 19:21:28 +0100 (Tue, 13 Feb 2007) $
+         last changed by:   $LastChangedBy$ $LastChangedDate$
 
          Copyright (c) 2006 GSI GridTeam. All rights reserved.
 *************************************************************************/

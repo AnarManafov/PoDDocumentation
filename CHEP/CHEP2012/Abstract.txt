@@ -1,0 +1,21 @@
+PoD: dynamically create and use remote PROOF clusters. A thin client concept.
+
+Presented by Anar MANAFOV on 21 May 2012 from 5:25 PM to 5:50 PM
+Type: Parallel
+Session: Distributed Processing and Analysis on Grids and Clouds 
+Track: Distributed Processing and Analysis on Grids and Clouds (track 3)
+
+Content
+
+PROOF on Demand (PoD) is a tool-set, which dynamically sets up a PROOF cluster at a user’s request on any resource management system (RMS). It provides a plug-in based system, in order to use different job submission front-ends.
+PoD is currently shipped with gLite, LSF, PBS (PBSPro/OpenPBS/Torque), Grid Engine (OGE/SGE), Condor, LoadLeveler, and SSH plug-ins. It makes it possible just within a few seconds to get a private PROOF cluster on any RMS. If there is no RMS, then SSH plug-in can be used, which dynamically turns a bunch of machines to PROOF workers.
+
+In this presentation new developments and use cases will be covered.
+
+Recently a new major step in PoD development has been made. It can now work not only with local PoD servers, but also with remote ones.
+PoD’s newly developed “pod-remote” command made it possible for users to utilize a thin client concept. In order to create dynamic PROOF clusters, users are now able to select a remote computer, even behind a firewall, to control a PoD server on it and to submit PoD jobs. In this case a user interface machine is just a lightweight control center and could run on different OS types or mobile devices.
+All communications are secured and provided via SSH channels. Additionally PoD automatically creates and maintains SSH tunnels for PROOF connections between a user interface and PROOF muster.
+
+PoD will create and manage remote and local PROOF clusters for you. Just two commands of PoD will provide you with the full functional PROOF cluster and a real computing on demand.
+
+The talk will also include several live demos from real life use cases.

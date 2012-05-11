@@ -1,0 +1,7 @@
+Computing On Demand: Dynamic Analysis Model
+
+Constant changes in computational infrastructure like the current interest in Clouds, imply conditions on the design of applications. We must make sure that our analysis infrastructure, including source code and supporting tools, is ready for the on demand computing (ODC) era. 
+
+This presentation is about a new analysis concept, which is driven by users needs, completely disentangled from the computational resources, and scalable.
+
+What does it take for an analysis code to be performed on any resource management system? How can one achieve goals of on demand analysis, using PROOF on Demand (PoD)? These questions and such topics as preferable location of data files as well as tools and software development techniques for on demand data analysis are covered. Also analysis implementation requirements and comparisons of traditional and “on demand” facilities will be discussed during this talk.
